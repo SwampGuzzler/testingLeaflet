@@ -1,0 +1,23 @@
+{
+  "name": "testingLeaflet",
+  "version": "0.0.1",
+  "description": "my application for unit testing leaflet maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "leaflet",
+    "test"
+  ],
+  "author": "Lucas Cotner",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^0.7.3"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.3",
+    "phantomjs": "^1.9.7-15",
+    "mocha-phantomjs": "^3.5.0"
+  }
+}
